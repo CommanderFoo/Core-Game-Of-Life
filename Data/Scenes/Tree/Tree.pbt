@@ -435,8 +435,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 1500
-    Height: 900
+    Width: 1300
+    Height: 800
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

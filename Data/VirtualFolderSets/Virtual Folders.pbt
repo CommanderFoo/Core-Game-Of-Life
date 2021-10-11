@@ -4,5 +4,9 @@ Assets {
   PlatformAssetType: 30
   SerializationVersion: 100
   VirtualFolderSetAsset {
+    Folders {
+      VirtualFolderPath: "YOOTIL"
+      PlatformAssetType: 3
+    }
   }
 }
