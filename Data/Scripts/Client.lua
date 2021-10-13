@@ -15,6 +15,10 @@ local tween_in_time = .08
 local tween_out_time = .08
 local refresh_speed = 0.05
 
+UI.SetCursorVisible(true)
+UI.SetCursorLockedToViewport(false)
+UI.SetCanCursorInteractWithUI(true)
+
 for c = 1, cols do
 	grid[c] = {}
 
