@@ -13,7 +13,7 @@ local tweens = {}
 local generation = 1
 local tween_in_time = .08
 local tween_out_time = .08
-local refresh_speed = 0.05
+local refresh_speed = 0.04
 
 UI.SetCursorVisible(true)
 UI.SetCursorLockedToViewport(false)
@@ -68,6 +68,7 @@ end
 
 function Tick(dt)
 	local a = 0
+
 	for c = 1, cols do
 		for r = 1, rows do
 			local total = 0
